@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.cardContainer {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.card {
+    margin: auto;
+    width: 380px;
+    height: 520px;
+    border: solid 1px hsl(0, 0%, 7%);
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 15px 15px hsl(0, 0%, 7%);
+}
+
+.cardContent {
+    padding: 20px;
+}
+
+.imgArt {
+    border-radius: 10px;
+}
+
+.cardBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-family: 'Figtree', sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+
+}
+
+.date {
+    margin: 16px 0 20px 0;
+    font-weight: 600;
+    font-family: 'Figtree', sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+}
+
+.tittle {
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
+    color: hsl(47, 88%, 63%);
+    cursor: url(./assets/images/hand.png), auto;
+
+  
+}
+
+.text {
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: hsl(0, 0%, 50%);
+}
+
+.avatarContainer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-left: 15px;
+    font-weight: 800;
+    font-family: 'Figtree', sans-serif;
+    font-size: 14px;
+    line-height: 1.5rem;
+    color: hsl(0, 0%, 7%);
+}
+
