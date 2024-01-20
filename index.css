@@ -4,17 +4,14 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: hsl(47, 88%, 63%);
 }
 
 .cardContainer {
-
     height: 100vh;
     display: flex;
     flex-direction: column;
-
 
 }
 
@@ -47,16 +44,15 @@ body {
     background-color: hsl(47, 88%, 63%);
     font-weight: 800;
     font-family: 'Figtree', sans-serif;
-    font-size: 14px;
+    font-size: 0.9rem;
     color: hsl(0, 0%, 7%);
-
 }
 
 .date {
     margin: 16px 0 20px 0;
     font-weight: 600;
     font-family: 'Figtree', sans-serif;
-    font-size: 14px;
+    font-size: 0.9rem;
     color: hsl(0, 0%, 7%);
 }
 
@@ -64,18 +60,20 @@ body {
     text-decoration: none;
     font-weight: 800;
     font-family: 'Figtree', sans-serif;
-    font-size: 24px;
-    color: hsl(47, 88%, 63%);
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 7%);
     cursor: url(./assets/images/hand.png), auto;
+}
 
-  
+.tittle:hover {
+    color: hsl(47, 88%, 63%);
 }
 
 .text {
     margin-top: 20px;
     font-weight: 600;
     font-family: 'Figtree', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5rem;
     color: hsl(0, 0%, 50%);
 }
@@ -90,8 +88,25 @@ body {
     margin-left: 15px;
     font-weight: 800;
     font-family: 'Figtree', sans-serif;
-    font-size: 14px;
+    font-size: .9rem;
     line-height: 1.5rem;
     color: hsl(0, 0%, 7%);
 }
 
+@media (max-width: 375px) {
+    html {
+        font-size: 14px;
+    }
+
+    .card {
+        width: 325px;
+        height: 500px;
+    }
+
+      .imgArt {
+        width: 285px;
+        height: 200px;
+        object-fit: none;
+
+    }
+}
